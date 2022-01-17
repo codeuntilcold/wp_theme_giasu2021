@@ -63,32 +63,30 @@
     
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="/wordpress/" class="nav-item nav-link">Trang chủ</a>
-                    <a href="/wordpress/thong-tin-chi-tiet/" class="nav-item nav-link">Thông tin chi tiết</a>
-                    <a href="/wordpress/cac-hoat-dong/" class="nav-item nav-link">Các hoạt động</a>
-                    <!-- ##### No blog yet -->
-                    <!-- <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
-                        <div class="dropdown-menu">
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="single.html" class="dropdown-item">Blog Detail</a>
-                        </div>
-                    </div> -->
-                    <a href="/wordpress/lien-he/" class="nav-item nav-link">Liên hệ</a>
+                    <a href="/" class="nav-item nav-link">Trang chủ</a>
+                    <a href="/thong-tin-chi-tiet/" class="nav-item nav-link">Thông tin chi tiết</a>
+                    <a href="/cac-hoat-dong/" class="nav-item nav-link">Các hoạt động</a>
+                    <a href="/blog" class="nav-item nav-link">Blog</a>
+                    <a href="/lien-he/" class="nav-item nav-link">Liên hệ</a>
                 </div>
 
+                
+                
                 
                 <!-- Thanh nav động, thêm trang là thêm nav -->
                 <!-- <?php wp_nav_menu( 
                     array(
-                        'theme-location' => 'menu',
-                        'menu-class' => 'navbar-nav',
+                        'theme_location' => 'menu',
+                        'container' => 'div',
+                        'container_class' => 'collapse navbar-collapse justify-content-between',
+                        'container_id' => 'navbarCollapse',
+                        'menu_class' => 'navbar-nav ml-auto',
+                        'items_wrap' => '',
                     )
                 ); ?> -->
-
-
-
+                
             </div>
+            
         </div>
     </div>
         <!-- Nav Bar End -->

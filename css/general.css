@@ -135,7 +135,7 @@ a:focus {
 }
 
 .navbar .show {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     transition: .1s;
 }
 
