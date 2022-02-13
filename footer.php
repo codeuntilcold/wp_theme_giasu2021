@@ -1,4 +1,3 @@
-<?php wp_footer(); ?>
 
 
 <!-- Footer Start -->
@@ -75,6 +74,9 @@
 <!-- <script src="jquery.counterup.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+<?php wp_footer(); ?>
+
 
 </body>
 
