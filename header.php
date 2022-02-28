@@ -12,7 +12,7 @@
         name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="<?php echo get_theme_file_uri('assets/img/favicon.ico');?>" rel="icon">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
@@ -56,24 +56,42 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="/" class="navbar-brand">GS<span>BK</span></a>
+
+            <?php if (is_front_page()) : ?>
+                <a href="<?php echo './' ?>" class="navbar-brand">GS<span>BK</span></a>
+            <?php else : ?>
+                <a href="<?php echo '../' ?>" class="navbar-brand">GS<span>BK</span></a>
+            <?php endif; ?>
+
+
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
     
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="/" class="nav-item nav-link">Trang chủ</a>
-                    <a href="/thong-tin-chi-tiet/" class="nav-item nav-link">Thông tin chi tiết</a>
-                    <a href="/cac-hoat-dong/" class="nav-item nav-link">Các hoạt động</a>
-                    <a href="/blog" class="nav-item nav-link">Blog</a>
-                    <a href="/lien-he/" class="nav-item nav-link">Liên hệ</a>
+
+                    <?php if (is_front_page()) : ?>
+                        <a href="<?php echo './' ?>" class="nav-item nav-link">Trang chủ</a>
+                        <a href="<?php echo './thong-tin-chi-tiet' ?>" class="nav-item nav-link">Thông tin chi tiết</a>
+                        <a href="<?php echo './cac-hoat-dong' ?>" class="nav-item nav-link">Các hoạt động</a>
+                        <a href="<?php echo './blog' ?>" class="nav-item nav-link">Blog</a>
+                        <a href="<?php echo './lien-he' ?>" class="nav-item nav-link">Liên hệ</a>
+                    <?php else : ?>
+                        <a href="<?php echo '../' ?>" class="nav-item nav-link">Trang chủ</a>
+                        <a href="<?php echo '../thong-tin-chi-tiet' ?>" class="nav-item nav-link">Thông tin chi tiết</a>
+                        <a href="<?php echo '../cac-hoat-dong' ?>" class="nav-item nav-link">Các hoạt động</a>
+                        <a href="<?php echo '../blog' ?>" class="nav-item nav-link">Blog</a>
+                        <a href="<?php echo '../lien-he' ?>" class="nav-item nav-link">Liên hệ</a>
+                    <?php endif; ?>
+
+
                 </div>
 
                 
                 
                 
-                <!-- Thanh nav động, thêm trang là thêm nav -->
+                <!-- Thanh nav động, thêm trang là thêm nav, nhưng mà chưa bít làm :v -->
                 <!-- <?php wp_nav_menu( 
                     array(
                         'theme_location' => 'menu',

@@ -84,7 +84,7 @@
 										</p>
 									</div>
 									<div class="col-lg-6">
-										<img src="img/thanhlap.jpg">
+										<img src="<?php echo get_theme_file_uri('assets/img/thanhlap.jpg');?>">
 									</div>
 								</div>
 							</div>
@@ -96,7 +96,7 @@
 									<div class="col-lg-6">
 										<a href="https://fb.com/clbgsbk" target="blank">
 											<h3>
-												<img id="timeline-icon" src="img/giasu_avatar.png" alt="">
+												<img id="timeline-icon" src="<?php echo get_theme_file_uri('assets/img/giasu_avatar.png');?>" alt="">
 												Gia sư trường Đại học Bách Khoa
 											</h3>
 										</a>
@@ -113,7 +113,7 @@
 										</p>
 									</div>
 									<div class="col-lg-6">
-										<img src="img/giasu_kega.JPG" alt="">
+										<img src="<?php echo get_theme_file_uri('assets/img/giasu_kega.JPG');?>" alt="">
 									</div>
 								</div>
 							</div>
@@ -125,7 +125,7 @@
 									<div class="col-lg-6">
 										<a href="https://www.facebook.com/hoccunggsbk" target="blank">
 											<h3>
-												<img id="timeline-icon" src="img/hoccung_avatar.jpg" alt="">
+												<img id="timeline-icon" src="<?php echo get_theme_file_uri('assets/img/hoccung_avatar.jpg');?>" alt="">
 												Học cùng Gia sư Bách Khoa
 											</h3>
 										</a>
@@ -142,7 +142,7 @@
 										</p>
 									</div>
 									<div class="col-lg-6">
-										<img src="img/hoccung_quyen.png" alt="hoccung">
+										<img src="<?php echo get_theme_file_uri('assets/img/hoccung_quyen.png');?>" alt="hoccung">
 									</div>
 								</div>
 							</div>
@@ -154,7 +154,7 @@
 									<div class="col-lg-6">
 										<a href="https://www.fb.com/motquyenvomotuocmo" target="blank">
 											<h3>
-												<img id="timeline-icon" src="img/mqv_avatar.jpg" alt="">
+												<img id="timeline-icon" src="<?php echo get_theme_file_uri('assets/img/mqv_avatar.jpg');?>" alt="">
 												Một quyển vở - Một ước mơ
 											</h3>
 										</a>
@@ -169,7 +169,7 @@
 										</p>
 									</div>
 									<div class="col-lg-6">
-										<img src="img/mqv_vee.jpg" alt="mqv">
+										<img src="<?php echo get_theme_file_uri('assets/img/mqv_vee.jpg');?>" alt="mqv">
 									</div>
 								</div>
 							</div>
@@ -181,7 +181,7 @@
 									<div class="col-lg-6">
 										<a href="https://www.facebook.com/tusachbachkhoa" target="blank">
 											<h3>
-												<img id="timeline-icon" src="img/tusach_avatar.png" alt="">
+												<img id="timeline-icon" src="<?php echo get_theme_file_uri('assets/img/tusach_avatar.png');?>" alt="">
 												Tủ sách Bách Khoa
 											</h3>
 										</a>
@@ -200,7 +200,7 @@
 										</p>
 									</div>
 									<div class="col-lg-6">
-										<img src="img/tusach_htv.jpg" alt="">
+										<img src="<?php echo get_theme_file_uri('assets/img/tusach_htv.jpg');?>" alt="">
 									</div>
 								</div>
 							</div>
@@ -212,7 +212,7 @@
 									<div class="col-lg-6">
 										<a href="https://fb.com/vieclambachkhoahcm" target="blank">
 											<h3>
-												<img id="timeline-icon" src="img/vieclam_avatar.jpg" alt="">
+												<img id="timeline-icon" src="<?php echo get_theme_file_uri('assets/img/vieclam_avatar.jpg');?>" alt="">
 												Việc làm Bách Khoa
 											</h3>
 										</a>
@@ -229,7 +229,7 @@
 										</p>
 									</div>
 									<div class="col-lg-6">
-										<img src="img/vieclam_tuyendung.png" alt="">
+										<img src="<?php echo get_theme_file_uri('assets/img/vieclam_tuyendung.png');?>" alt="">
 									</div>
 								</div>
 							</div>
@@ -241,7 +241,7 @@
 									<div class="col-lg-6">
 										<a href="https://fb.com/giasubachkhoatinhnguyen" target="blank">
 											<h3>
-												<img id="timeline-icon" src="img/gsbktn_avatar.png" alt="">
+												<img id="timeline-icon" src="<?php echo get_theme_file_uri('assets/img/gsbktn_avatar.png');?>" alt="">
 												Gia sư Bách Khoa tình nguyện
 											</h3>
 										</a>
@@ -254,7 +254,7 @@
 										</p>
 									</div>
 									<div class="col-lg-6">
-										<img src="img/gsbktn_hoatdong.png" alt="">
+										<img src="<?php echo get_theme_file_uri('assets/img/gsbktn_hoatdong.png');?>" alt="">
 									</div>
 								</div>
 							</div>

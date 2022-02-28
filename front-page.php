@@ -27,7 +27,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6 d-none d-md-block">
                     <div class="hero-image">
-                        <img src="img/hero_mini.png" alt="Hình ảnh Gia sư ĐH Bách khoa">
+                        <img src="<?php echo get_theme_file_uri('assets/img/hero_mini.png'); ?>" alt="Hình ảnh Gia sư ĐH Bách khoa">
+                        <!-- <img src="img/hero_mini.png" alt="Hình ảnh Gia sư ĐH Bách khoa"> -->
                     </div>
                 </div>
             </div>
@@ -42,7 +43,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="about-img">
-                        <img src="img/gthieu_mini.JPG" alt="Các gia sư ĐH Bách khoa">
+                        <img src="<?php echo get_theme_file_uri('assets/img/gthieu_mini.JPG'); ?>" alt="Các gia sư ĐH Bách khoa">
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12">
@@ -58,7 +59,7 @@
                         <p>
                             Chúng tôi hỗ trợ tư vấn, tìm kiếm gia sư có chuyên môn cao, <b> 100% là sinh viên Bách Khoa</b>.
                         </p>
-                        <a class="btn" href="/about.html">
+                        <a class="btn" href="<?php echo './thong-tin-chi-tiet'?>">
                             Chi tiết hơn về CLB
                         </a>
                     </div>

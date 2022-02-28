@@ -20,17 +20,17 @@ function load_stylesheets()
     wp_register_style('style', get_template_directory_uri() . '/style.css', array(), false, 'all');
     wp_enqueue_style('style');
 
-    wp_register_style('general', get_template_directory_uri() . '/css/general.css', array(), false, 'all');
+    wp_register_style('general', get_template_directory_uri() . '/assets/css/general.css', array(), false, 'all');
     wp_enqueue_style('general');
-    wp_register_style('index', get_template_directory_uri() . '/css/index.css', array(), false, 'all');
+    wp_register_style('index', get_template_directory_uri() . '/assets/css/index.css', array(), false, 'all');
     wp_enqueue_style('index');
-    wp_register_style('about', get_template_directory_uri() . '/css/about.css', array(), false, 'all');
+    wp_register_style('about', get_template_directory_uri() . '/assets/css/about.css', array(), false, 'all');
     wp_enqueue_style('about');
-    wp_register_style('activity', get_template_directory_uri() . '/css/activity.css', array(), false, 'all');
+    wp_register_style('activity', get_template_directory_uri() . '/assets/css/activity.css', array(), false, 'all');
     wp_enqueue_style('activity');
-    wp_register_style('contact', get_template_directory_uri() . '/css/contact.css', array(), false, 'all');
+    wp_register_style('contact', get_template_directory_uri() . '/assets/css/contact.css', array(), false, 'all');
     wp_enqueue_style('contact');
-    wp_register_style('blog', get_template_directory_uri() . '/css/blog.css', array(), false, 'all');
+    wp_register_style('blog', get_template_directory_uri() . '/assets/css/blog.css', array(), false, 'all');
     wp_enqueue_style('blog');
 }
 
@@ -38,7 +38,7 @@ add_action('wp_enqueue_scripts', 'load_stylesheets');
 
 function load_js()
 {
-    wp_register_script( 'mainjs', get_template_directory_uri() . '/js/main.js', '', 1, true );
+    wp_register_script( 'mainjs', get_template_directory_uri() . 'assets/js/main.js', '', 1, true );
     wp_enqueue_script( 'mainjs' );
 
     wp_register_script( 'jquery', 'https://code.jquery.com/jquery-3.4.1.min.js', '', 1, true );

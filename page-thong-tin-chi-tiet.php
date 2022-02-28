@@ -31,7 +31,11 @@
             </div>
 
 
-            <div class="text-center standard-item wow zoomIn text-justify" id="clubIntro">
+            <div class="text-center standard-item wow zoomIn text-justify" id="clubIntro"
+                style="text-align: justify;
+                    text-justify: inter-word;
+                    margin-right: 15%;
+                    margin-left: 15%;">
                 <p>CLB Gia Sư Trường Đại học Bách Khoa là CLB gia sư <b>chính thức và duy nhất</b> trực thuộc trường Đại
                     học
                     Bách Khoa - ĐHQG-HCM, dưới sự giám sát của Hội Sinh viên và Trung tâm Hỗ trợ Sinh viên & Việc Làm
@@ -48,7 +52,13 @@
                     làm thêm cho các bạn sinh viên đang học tập tại trường.</p>
             </div>
         </div>
-        <img src="img/introGS-removebg-preview.png" id="introImage" alt="">
+        <img 
+            style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;"
+            src="<?php echo get_theme_file_uri('assets/img/introGS-removebg-preview.png');?>" 
+            id="introImage" alt="Ảnh về các gia sư clb gia sư trường ĐH Bách Khoq">
     </div>
     <!-- END GIỚI THIỆU CLB GIA SƯ -->
 
@@ -61,7 +71,12 @@
         </div>
     </div> -->
     <div>
-        <p class="fst-italic" id="destiny">
+        <p class="fst-italic" id="destiny"
+            style="text-align: center;
+                margin-top: 0%;
+                margin-right: 15%;
+                margin-left: 15%;
+                font-size: 16px;">
             "Đem lại <b>giải pháp giáo dục tốt nhất</b> cho các bạn học sinh và sinh viên"
         </p>
     </div>

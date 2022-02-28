@@ -1,3 +1,6 @@
+/* Because somehow wordpress doesn't load about.css */
+@import url("about.css");
+
 :root {
     --orange-main: #FF8C00;
     --orange-palest: #FFAF4D;
