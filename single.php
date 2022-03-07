@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 
-<!-- <?php if (has_post_thumbnail(  )): ?>
-    <img src="<?php the_post_thumbnail_url('largest');?>" class="img-fluid" alt="ảnh bìa">
+<!-- <?php if (has_post_thumbnail()) : ?>
+    <img src="<?php the_post_thumbnail_url('largest'); ?>" class="img-fluid" alt="ảnh bìa">
 <?php endif; ?> -->
 
 
@@ -11,50 +11,50 @@
 
 <!-- Page Header Start -->
 <div class="page-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2>Detail Page</h2>
-            </div>
-            <div class="col-12">
-                <a href="">Home</a>
-                <a href="">Detail Page</a>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Detail Page</h2>
+      </div>
+      <div class="col-12">
+        <a href="">Home</a>
+        <a href="">Detail Page</a>
+      </div>
     </div>
+  </div>
 </div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-    <path fill="#FFC074" fill-opacity="1"
-        d="M0,96L120,117.3C240,139,480,181,720,186.7C960,192,1200,160,1320,144L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
-    </path>
+  <path fill="#FFC074" fill-opacity="1" d="M0,96L120,117.3C240,139,480,181,720,186.7C960,192,1200,160,1320,144L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+  </path>
 </svg>
 <!-- Page Header End -->
 
 
 <!-- Single Post Start-->
 <div class="single">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="single-content wow fadeInUp">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="single-content wow fadeInUp">
 
-                    <img src="img/single.jpg" />
+          <img src="img/single.jpg" />
 
-                    <h1> <?php the_title(); ?> </h1>
-
-
-                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                        <?php the_content(); ?>
-                    <?php endwhile; endif; ?>
+          <h1> <?php the_title(); ?> </h1>
 
 
-
+          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+              <?php the_content(); ?>
+          <?php endwhile;
+          endif; ?>
 
 
 
 
-                </div>
-                <!-- <div class="single-tags wow fadeInUp">
+
+
+
+        </div>
+        <!-- <div class="single-tags wow fadeInUp">
                     <a href="">National</a>
                     <a href="">International</a>
                     <a href="">Economics</a>
@@ -545,9 +545,9 @@
                     </div>
                 </div>
             </div> -->
-        </div>
+      </div>
     </div>
-</div>
-<!-- Single Post End-->   
+  </div>
+  <!-- Single Post End-->
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>

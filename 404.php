@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-<h2 class="text-center mt-5 mb-5">Không tìm thấy đường dẫn này</h1>
+<h2 class="text-center mt-5 mb-5">Không tìm thấy đường dẫn này</h2>
 
 <h3 class="text-center">
-    <b>
+  <b>
     <a href="">Quay lại trang chủ</a>
-    </b>
+  </b>
 </h3>
 
 

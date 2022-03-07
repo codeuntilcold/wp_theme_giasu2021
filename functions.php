@@ -61,25 +61,16 @@ function load_js()
 add_action( 'wp_enqueue_scripts', 'load_js' );
 
 
-
-
-
-
 add_theme_support( 'menus' );
-add_theme_support( 'post-thumbnails' );
-add_theme_support( 'post-formats', array('aside', 'gallery', 'quote', 'image', 'video') );
-
-
-
 register_nav_menus( 
     array(
-
-        'menu' => __('Menu', 'theme'),
-
+        'menu' => __('Menu', 'theme'),      
     )
 );
-
-
+    
+    
+add_theme_support( 'post-thumbnails' );
+add_theme_support( 'post-formats', array('aside', 'gallery', 'quote', 'image', 'video') );
 add_image_size('smallest', 300, 300, true);
 add_image_size( 'largest', 300, 300, true );
 
